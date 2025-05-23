@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffd700;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero {
+      padding-top: 100px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.2);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Selamat Datang di Portofolio Saya</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <h1>Halo, saya Irfan dwi A.!</h1>
+    <p>Saya adalah web developer yang fokus pada front-end development dan desain UI/UX.</p>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang pengembang web dengan minat dalam membuat tampilan antarmuka yang menarik dan responsif. Saya memiliki pengalaman dalam HTML, CSS, JavaScript, dan beberapa framework seperti React.</p>
+  </section>
+
+  <section id="proyek">
+    <h2>Proyek</h2>
+    <p>Berikut beberapa proyek yang pernah saya kerjakan:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li>- Website Portfolio Pribadi</li>
+      <li>- Aplikasi To-Do List dengan React</li>
+      <li>- Desain UI untuk aplikasi e-commerce</li>
+    </ul>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Anda dapat menghubungi saya melalui email di <a href="mailto:irfan@example.com" style="color: #ffd700;">irfan@example.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 irfan. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
+
+Penjelasan:
+
+Setiap bagian (Tentang Saya, Proyek, dan Kontak) memiliki ID yang sesuai dengan link navigasi.
+
+Tautan navigasi sekarang akan scroll secara halus ke bagian yang dituju.
+
+Konten bisa kamu kembangkan sesuai pengalaman dan proyek aslimu.
+
+
+Mau saya bantu tambahkan ikon media sosial atau formulir kontak langsung di halaman ini?
